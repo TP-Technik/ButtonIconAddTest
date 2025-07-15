@@ -49,6 +49,10 @@ public class Programm
             StandardIcon: standardPict,
             LargeIcon: largePict);
 
+        // If you break hear you can Inspect the error of the myCustomButton Icons, by hovering over it:
+        // myCustomButton.StandardIcon = standardPict;
+        // myCustomButton.LargeIcon = largePict;
+
 
         myCustomButton.OnExecute += new ButtonDefinitionSink_OnExecuteEventHandler(myFunction);
 
